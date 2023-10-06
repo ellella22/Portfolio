@@ -1,0 +1,95 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w4-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: rgb(31, 11, 78);}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+
+  #testimonial{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    
+  }
+  .portofolio2{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+  }
+  .container{
+    background-color: rgb(197, 196, 196);
+ 
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    -webkit-margin-bottom-collapse: 20px;
+    align-items: center;
+  }
+  
+
+.gallery{
+  margin: 10px 50px;
+
+}
+
+.gallery img{
+  
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+  margin-top: 30px;
+}
+.learning img {
+  
+  
+  padding: 0px;
+filter: grayscale(0%);
+height: auto;
+transition: 1s;
+}
+
+.learning img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+  margin-top: 30px;
+}
+
+.figma img{
+  height: 300px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+  
+}
+.figma img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+  margin-top: 30px;
+}
+
+
+
+
+  
